@@ -1,5 +1,6 @@
 package com.jackinjava.commons.spring.mvc;
 
+import org.springframework.stereotype.Controller;
 import org.springframework.util.AntPathMatcher;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RequestMapping;
@@ -14,6 +15,7 @@ import java.net.URLDecoder;
  *
  * @author LiJie on 2019/9/19
  */
+
 @RequestMapping("/nav")
 public class NavigationController {
     public NavigationController() {
